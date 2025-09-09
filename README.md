@@ -1,80 +1,71 @@
-# 👋 Hi, I'm Ayush Raj  
-
-🎓 **BS-MS Dual Degree Programme** | Indian Institute of Science Education and Research (IISER) Pune  
-📧 [Email](mailto:raj.ayush@students.iiserpune.ac.in) • 🌐 [LinkedIn](https://www.linkedin.com/in/ayush-raj-7608a424a) • 💻 [GitHub](https://github.com/Artamta)  
-
----
-
-## 🌟 About Me  
-I’m a **computational researcher** passionate about applying **Machine Learning (ML)** and **Deep Learning (DL)** to scientific problems in **climate data analysis** and **biomedical imaging**.  
-
-- 🔬 Experience with **transformers, graph models, LLMs, and RAG** for spatio-temporal forecasting and scientific data.  
-- 📈 Skilled in **statistical modeling** (regularized inversion, uncertainty analysis) combined with modern DL architectures.  
-- ⚡ 2+ years of hands-on **Python & PyTorch** experience, building reproducible, research-grade pipelines.  
-- ☁️ Experienced with **HPC clusters** and **Slurm job scheduling** for large-scale experiments.  
-
----
-
-## 🔬 Research Experience  
-
-### 📌 Spatio-Temporal Climate Data Analysis — IISER Pune (Dec 2024 – Jul 2025, 8 months)  
-*Supervisor: Prof. Bedartha Goswami*  
-- Analyzed temperature & NDVI time-series to identify **heatwave clusters** and anomalies.  
-- Built reproducible pipelines with **K-means, UPGMA, Deep Graphs**, and **Spearman correlation**.  
-- Experiments executed on **HPC (Slurm)** with publication-ready visualizations.  
-
-### 📌 Summer Research Internship — Quantitative MRI — IIT Delhi (May – Jul 2025)  
-*Supervisors: Dr. Amit Mehndiratta / Dr. Esha Baidya Kayal*  
-- Implemented voxel-wise **IVIM & IVIM-DKI models** with **Total Variation (TV) regularization**.  
-- Built Python pipelines for **DICOM/NIfTI handling**, ROI selection, and nonlinear fitting (`scipy`, `lmfit`).  
-- Performed **synthetic simulations** & **multi-organ clinical analyses** (Liver, Lymphoma, Prostate, Rectum).  
-- Evaluated with **RMSE, bias, AIC** → improved stability at low SNR.  
-
-### 📌 Fuxi Model Implementation (Transformers for Climate Data) — IISER Pune (Aug 2025 – Present)  
-*Supervisor: Prof. Bedartha Goswami*  
-- Implementing a **Fuxi-style transformer** (Swin + U-Transformer) for spatio-temporal forecasting.  
-- Built scalable **PyTorch training pipelines** with custom dataloaders for multi-year climate arrays.  
-- Conducting **ablation studies** for extreme-event prediction, trained on **Slurm HPC nodes**.  
-
----
-
-## 💻 Selected Projects  
-
-- 🤖 **Facial Emotion Recognition System**  
-  - ResNet + VGG hybrid model with **transfer learning & augmentation**.  
-  - Achieved robust performance on standard FER datasets.  
-
-- 🩺 **Breast Cancer Detection Model**  
-  - Logistic regression classifier, **97% accuracy**.  
-  - Deployed with **Flask** for real-time predictions.  
-
----
-
-## ⚙️ Technical Skills  
-
-- **Programming:** Python (Proficient — 2+ years), C++, C, SQL, Bash  
-- **Frameworks / ML:** PyTorch, Scikit-learn, Transformers, LLMs, RAG, LangChain  
-- **Data / Geo / Imaging:** NumPy, Pandas, Xarray, GeoPandas, NiBabel, SimpleITK  
-- **HPC:** Slurm (job scheduling, cluster experiments)  
-- **Tools:** Git, Linux, Matplotlib, Seaborn, Flask, Heroku  
-
----
-
-## 📊 GitHub Stats  
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Artamta&show_icons=true&theme=tokyonight" alt="Ayush's GitHub stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Artamta&layout=compact&theme=tokyonight" alt="Top Languages" height="180"/>
-</p>
-
----
-
-## 📫 Connect with Me  
-
-- 💻 [GitHub](https://github.com/Artamta)  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/ayush-raj-7608a424a)  
-- 📧 [Email](mailto:raj.ayush@students.iiserpune.ac.in)  
-
----
-
-⭐️ *If you’re interested in collaborating on ML/DL for climate or biomedical data, feel free to reach out!*  
+Ayush Raj
+BS-MS dual degree programme, Indian Institute of Science Education and Research (IISER) Pune
+raj.ayush@students.iiserpune.ac.in | github.com/Artamta | linkedin.com/in/ayush-raj-7608a424a
+Profile
+I am a computational researcher passionate about addressing real-world problems in climate science and healthcare using
+data-driven techniques. My expertise lies in machine learning, deep learning, and high-performance computing
+(HPC/Slurm, SSH). I design and implement scalable and reproducible pipelines in Python and PyTorch for spatio-temporal
+climate forecasting and quantitative biomedical imaging. I bridge statistical modeling, transformers, graph neural
+networks, and LLM/RAG to produce interpretable and impactful solutions.
+Research Experience
+Fuxi Model Implementation (Transformers for Climate Data), IISER Pune
+Supervisor: Prof. Bedartha Goswami
+• Implementing a Fuxi-style transformer combining Swin and U-Transformer principles for spatio-temporal
+forecasting on gridded climate data.
+• Developing scalable PyTorch training pipelines, custom dataloaders for multi-year arrays, and conducting
+ablation studies on extreme-event prediction.
+• Leveraging HPC clusters (Slurm, SSH) for training and large-scale experiments.
+• Timeline: Aug 2025 – Present
+• Repository: github.com/Artamta/Fuxi-Weather-Prediction
+Summer Research Internship — Quantitative MRI, Centre for Biomedical Engineering, IIT Delhi
+Supervisor: Dr. Amit Mehndiratta / Dr. Esha Baidya Kayal
+• Implemented voxel-wise IVIM and hybrid IVIM-DKI models with Total Variation regularization to improve
+parameter-map stability under low SNR.
+• Built end-to-end pipelines for DICOM/NIfTI handling (NiBabel, SimpleITK), ROI selection (MRIcron), and
+nonlinear fitting (scipy.optimize, lmfit).
+• Conducted synthetic SNR simulations and multi-organ clinical analyses (Liver, Lymphoma, Prostate, Rectum);
+evaluated with RMSE, bias, and AIC.
+• Timeline: May – Jul 2025 (3 months)
+• Repository: github.com/Artamta/Summer_Internsip_IITD
+Spatio-Temporal Climate Data Analysis for the Indian Subcontinent, IISER Pune
+Supervisor: Prof. Bedartha Goswami
+• Performed large-scale analysis of temperature and NDVI time-series to identify heatwave clusters and seasonal
+anomalies.
+• Implemented clustering (K-means, UPGMA) and Deep Graphs workflows for spatio-temporal pattern discovery.
+• Applied Spearman-rank correlation analyses and developed publication-quality geospatial maps.
+• Leveraged Python, Xarray, GeoPandas, and HPC (Slurm) for experiments.
+• Timeline: Dec 2024 – Jul 2025 (8 months)
+• Repository: github.com/Artamta/Spito-Temporal_Heatwave_Analysis
+Education
+Indian Institute of Science Education and Research (IISER), Pune
+BS-MS dual degree programme
+Jawahar Navodaya Vidyalaya, Pithoragarh
+10th: 93.6%, 12th: 93.2% | CBSE Merit Certificate (Science)
+Selected Projects
+Facial Emotion Recognition System (Course Project: Image & Video Processing with Deep Learning)
+• Designed and implemented a deep learning pipeline for emotion recognition using the CK+ dataset (7 classes:
+Angry, Disgust, Fear, Happy, Sad, Surprise, Contempt).
+• Built on a VGG19 backbone, adapted for grayscale inputs, with dropout and weight decay for regularization.
+• Implemented a 5-fold cross-validation pipeline in PyTorch, achieving an average test accuracy of 73.9% and a
+best fold accuracy of 79.8%.
+• Applied extensive augmentation (random rotation, affine transforms, perspective distortion, erasing) for
+generalization.
+• Developed an inference pipeline (predict.py) for classifying unseen face images.
+• Timeline: Semester 6 (Summer 2024)
+• Repository: github.com/Artamta/project_ayush_raj
+Breast Cancer Detection Model (Practice Project)
+• Built and evaluated a logistic-regression classifier on clinical features (97% accuracy on held-out test); deployed
+a Flask demo for interactive use.
+• Timeline: Winter 2023
+• Repository: github.com/Artamta/Brest_Cancer_Detection_Model
+Extracurricular & Leadership
+Active contributor to hackathons, study groups, and open-source collaborations.
+Represented IISER Pune in inter-college tournaments; regular team member.
+Technical Skills
+Programming: Python (Proficient — 2+ years), C++, C, SQL, Bash, SSH
+Frameworks / ML: PyTorch (Proficient), Scikit-learn, Transformers,Hugging-face, LLMs, RAG, LangChain
+Data / Geo / Imaging: NumPy, Pandas, Xarray, GeoPandas, NiBabel, SimpleITK
+High-performance computing: Slurm (job scheduling, cluster experiments), HPC workflows
+Tools: Git, Linux, Matplotlib, Seaborn, Flask, Heroku
+Languages
+Hindi (Native), English (Fluent), Kumauni (Fluent)
