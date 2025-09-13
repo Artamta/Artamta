@@ -1,87 +1,82 @@
-# 👋 Hi, I'm Ayush Raj  
+# Ayush Raj  
 
-🎓 **BS–MS Dual Degree Student** at the *Indian Institute of Science Education and Research (IISER) Pune*  
-💡 Passionate about solving real-world problems in **climate science** 🌍 and **healthcare** 🩺 using **data-driven techniques**  
-
----
-
-## 🔬 About Me  
-I’m a **computational researcher** working at the intersection of **machine learning, deep learning, and scientific computing**.  
-My focus areas:  
-- 🌦️ **Climate data** — spatio-temporal forecasting, extreme events, graph-based models  
-- 🧠 **Biomedical imaging** — quantitative MRI, cancer prediction, emotion recognition  
-- ⚡ **HPC** — scalable pipelines on Slurm clusters, SSH-based workflows  
-- 🤖 **AI/ML** — transformers, graph neural networks, LLM/RAG  
-
-> I love designing **reproducible pipelines** and building models that are not just accurate but also interpretable and impactful.  
+🎓 *BS–MS Dual Degree Student, IISER Pune*  
+🌍 Climate • 🧠 Healthcare • 🤖 AI/ML • ⚡ HPC  
 
 ---
 
-## 🏗️ Research Experience  
+## 🔬 Research & Development  
 
-### 🌦️ Fuxi Model for Climate Forecasting (IISER Pune)  
-🔹 Implementing a **Fuxi-style transformer** combining Swin + U-Transformer for spatio-temporal forecasting.  
-🔹 PyTorch pipelines with custom dataloaders for multi-year arrays.  
-🔹 Running experiments on HPC clusters (Slurm, SSH).  
-📂 [Repository →](https://github.com/Artamta/Fuxi-Weather-Prediction)  
-
----
-
-### 🧲 Quantitative MRI Modeling (IIT Delhi – Summer Internship)  
-🔹 Built voxel-wise **IVIM and IVIM-DKI models** with Total Variation regularization.  
-🔹 End-to-end pipelines for DICOM/NIfTI (NiBabel, SimpleITK) and nonlinear fitting.  
-🔹 Multi-organ clinical analysis (Liver, Prostate, Rectum, Lymphoma).  
-📂 [Repository →](https://github.com/Artamta/Summer_Internsip_IITD)  
+### 🌦️ Fuxi Model for Climate Forecasting — IISER Pune  
+- Transformer pipeline for **spatio-temporal climate forecasting**.  
+- Implemented **cube embeddings** and custom PyTorch dataloaders for multi-year arrays.  
+- Experiments conducted on **Slurm-based HPC clusters**.  
+📂 [Code Repository](https://github.com/Artamta/Fuxi-Weather-Prediction)  
 
 ---
 
-### 🔥 Climate Data Analysis – Indian Subcontinent (IISER Pune)  
-🔹 Large-scale temperature & NDVI time-series analysis to detect **heatwaves and anomalies**.  
-🔹 Implemented clustering (K-means, UPGMA) + Deep Graphs workflows.  
-🔹 Produced **publication-ready geospatial maps**.  
-📂 [Repository →](https://github.com/Artamta/Spito-Temporal_Heatwave_Analysis)  
+### 🧲 Quantitative MRI Modeling — IIT Delhi (Summer Internship)  
+- Developed **IVIM & hybrid IVIM-DKI models** with Total Variation regularization.  
+- Built pipelines for **DICOM/NIfTI handling, ROI extraction, and nonlinear fitting**.  
+- Applied models to **multi-organ datasets**: liver, prostate, rectum, lymphoma.  
+📂 [Code Repository](https://github.com/Artamta/Summer_Internsip_IITD)  
 
 ---
 
-## 📂 Selected Projects  
+### 🔥 Spatio-Temporal Climate Analysis — IISER Pune  
+- Analyzed **temperature and NDVI time-series** for heatwave clusters.  
+- Used clustering (**K-means, UPGMA**) and **graph-based workflows**.  
+- Produced **publication-ready geospatial visualizations**.  
+📂 [Code Repository](https://github.com/Artamta/Spito-Temporal_Heatwave_Analysis)  
+
+---
+
+## 📂 Projects  
 
 ### 😃 Facial Emotion Recognition (Course Project)  
-🔹 Deep learning pipeline on **CK+ dataset** (7 emotions).  
-🔹 VGG19 backbone (grayscale), dropout & weight decay.  
-🔹 **5-fold CV**: Avg. accuracy **73.9%**, best fold **79.8%**.  
-📂 [Repository →](https://github.com/Artamta/project_ayush_raj)  
+- Pipeline for **emotion recognition** using the **CK+ dataset** (7 classes).  
+- VGG19 backbone adapted for grayscale + regularization.  
+- **5-fold CV** → Avg. accuracy: **73.9%**, Best fold: **79.8%**.  
+📂 [Code Repository](https://github.com/Artamta/project_ayush_raj)  
 
 ---
 
 ### 🩺 Breast Cancer Detection (Practice Project)  
-🔹 Logistic Regression classifier on **UCI Breast Cancer Dataset**.  
-🔹 **97% accuracy** on held-out test.  
-🔹 Deployed Flask web app with Bootstrap UI.  
-📂 [Repository →](https://github.com/Artamta/Brest_Cancer_Detection_Model)  
+- Logistic Regression classifier on **UCI Breast Cancer dataset**.  
+- Achieved **97% accuracy** on test set.  
+- Flask web app with Bootstrap interface for real-time predictions.  
+📂 [Code Repository](https://github.com/Artamta/Brest_Cancer_Detection_Model)  
 
 ---
 
-## 🛠️ Tech Stack  
+## 🛠️ Toolset  
 
-**Languages:** Python (Proficient), C++, C, SQL, Bash, SSH  
-**ML/DL:** PyTorch (Proficient), Scikit-learn, Transformers, HuggingFace, LLMs, RAG, LangChain  
-**Data/Imaging:** NumPy, Pandas, Xarray, GeoPandas, NiBabel, SimpleITK  
-**HPC:** Slurm, cluster experiments, scalable pipelines  
-**Tools:** Git, Linux, Flask, Heroku, Matplotlib, Seaborn  
-
----
-
-## 🌐 Languages I Speak  
-- 🇮🇳 **Hindi** (Native)  
-- 🇬🇧 **English** (Fluent)  
-- 🏔️ **Kumauni** (Fluent)  
+- **Programming**: Python, C++, C, SQL, Bash, SSH  
+- **ML/DL**: PyTorch, Scikit-learn, Transformers, HuggingFace, LLMs, RAG, LangChain  
+- **Data/Imaging**: NumPy, Pandas, Xarray, GeoPandas, NiBabel, SimpleITK  
+- **HPC**: Slurm-based clusters, scalable workflows  
+- **Other Tools**: Git, Linux, Flask, Heroku, Matplotlib, Seaborn  
 
 ---
 
-## 📫 Connect with Me  
-
-🔗 [GitHub](https://github.com/Artamta) • [LinkedIn](https://www.linkedin.com/in/ayush-raj-7608a424a) • 📧 [Email](mailto:raj.ayush@students.iiserpune.ac.in)  
+## 🌐 Languages  
+- 🇮🇳 Hindi (Native)  
+- 🇬🇧 English (Fluent)  
+- 🏔️ Kumauni (Fluent)  
 
 ---
 
-⭐️ *If you like my work, feel free to star some repos or reach out for collaborations in ML, climate, or healthcare projects!*  
+## 📊 GitHub Insights  
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Artamta&show_icons=true&theme=default&hide_border=true)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Artamta&layout=compact&theme=default&hide_border=true)  
+
+---
+
+## 📫 Connect  
+
+🔗 [GitHub](https://github.com/Artamta) • [LinkedIn](https://www.linkedin.com/in/ayush-raj-7608a424a) • [Email](mailto:raj.ayush@students.iiserpune.ac.in)  
+
+---
+
+⭐️ *Exploring the intersection of data, science, and computation.*
